@@ -1,0 +1,72 @@
+
+@import url("../fonts/OpenSans-ExtraBold.ttf");
+
+
+body{
+    font-family: 'OpenSans-ExtraBold', Helvetica, sans-serif;
+    background-color: #F0F0E8;
+    text-align: center;
+}
+
+body>h1, body>h2, body>h3{
+    text-align: center;
+}
+
+body>h1{
+    color: #008C83;
+    margin: 90px auto;
+    font-size: 56px;
+    font-weight: bolder;
+}
+
+body>h2{
+    font-weight: 700;
+    font-size: 20px;
+    color: #958485;
+}
+
+body>h3{
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: #958485;
+}
+
+ul{
+    margin: 30px auto;
+    padding: 10px;
+}
+
+ul>li{
+    display: inline-block;
+    margin: 10px;
+    width: 200px;
+    border-left: 10px solid #F0F0E8;
+    padding: 10px;
+}
+
+ul>li:hover{
+    background-color: #F6F6F6;
+    border-left: 10px solid #008C83;
+    padding: 10px;
+    cursor: pointer;
+}
+
+article{
+    width: 100%;
+    text-align: center;
+}
+article>img{
+    margin: 0 auto;
+}
+
+article>h3{
+    text-align: center;
+    font-weight: bold;
+}
+
+article>p{
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    color: #787B80;
+}

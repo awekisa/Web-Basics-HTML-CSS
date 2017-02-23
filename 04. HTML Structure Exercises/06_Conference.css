@@ -1,0 +1,197 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Lato Hairline'), local('Lato-Hairline'), url(http://fonts.gstatic.com/s/lato/v11/eFRpvGLEW31oiexbYNx7Y_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Lato Hairline'), local('Lato-Hairline'), url(http://fonts.gstatic.com/s/lato/v11/GtRkRNTnri0g82CjKnEB0Q.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(http://fonts.gstatic.com/s/lato/v11/dPJ5r9gl3kK6ijoeP1IRsvY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(http://fonts.gstatic.com/s/lato/v11/EsvMC5un3kjyUhB9ZEPPwg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v11/UyBMtLsHKBKXelqf4x7VRQ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v11/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+}
+
+header{
+    padding: 10px;
+    background-color: #293E4F;
+    color: #ffffff;
+    height: 400px;
+}
+
+header ul li{
+    display: inline-block;
+}
+
+header ul > li a{
+    color: #638779;
+    padding: 5px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+header .date{
+    color: #638779;
+    text-align: right;
+    padding: 5px;
+    font-size: 16px;
+}
+
+header h1{
+    font-size: 22px;
+    text-align:center;
+    padding: 30px;
+}
+header h2{
+    font-size: 16px;
+    text-align: center;
+    color: #638779;
+}
+
+header p {
+    text-align:center;
+    font-size: 16px;
+    padding: 45px 25px;
+}
+
+header .btn{
+    padding: 5px;
+    background:none;
+    display: block;
+    margin: 0 auto;
+    text-align:center;
+    line-height: 30px;
+    width: 100px;
+    height: 30px;
+    border: solid #ffffff;
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+header .btn:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #293E4F;
+}
+
+main{
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 0 auto;
+
+}
+main ul{
+    display: block;
+    text-align: center;
+}
+
+main ul li{
+    display:inline-block;
+}
+
+main ul li {
+    padding: 10px;
+    height: 280px;
+    width: 200px;
+}
+
+
+main ul li section h1{
+    display: inline-block;
+    color: 	#DADADA;
+    font-size: 14px;
+    padding: 10px;
+}
+
+main ul li section img{
+    height: 100px;
+    width: 150px;
+}
+
+main ul li section .name{
+    padding: 10px;
+    color: #DFE4E0;
+    font-size: 16px;
+}
+
+main ul li section p{
+    font-size: 10px;
+    padding: 10px;
+    color: #E9E9E9;
+}
+
+footer{
+    color:#E9E9E9;
+    background-color: #293E4F;
+    height: 80px;
+    margin: 0px;
+    line-height: 80px;
+}
+
+footer p{
+    padding: 10px;
+    display: inline-block;
+}
+
+footer nav{
+    padding: 10px;
+    display:inline-block;
+    float: right;
+}
+
+footer ul li{
+    display: inline-block;
+}
+
+footer ul li a{
+    padding: 5px;
+    font-size: 10px;
+    color:#E9E9E9;
+    text-decoration: none;
+}

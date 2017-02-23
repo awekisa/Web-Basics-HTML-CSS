@@ -1,0 +1,30 @@
+
+main{
+    width: 400px;
+}
+
+div{
+    background-color: #6395EC;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 5px;
+    width: 25%;
+    text-align: center;
+}
+
+p{
+    padding: 5px;
+    margin: 20px 0;
+}
+
+main>div:first-of-type{
+    float:left;
+}
+
+main>div:nth-of-type(2){
+    float:right;
+}
+
+main>div:last-of-type{
+    margin: 0 auto;
+}

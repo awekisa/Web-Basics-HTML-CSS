@@ -1,0 +1,167 @@
+@import "https://fonts.googleapis.com/css?family=Lato:300,400,900";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+    /*color: #ffffff;*/
+}
+nav{
+    color: #ffffff;
+    padding: 10px;
+    background-color: #AF9680;
+    height: 100px;
+
+}
+
+nav p{
+    float: left;
+    font-weight: bold;
+    padding: 5px 20px;
+    color: #ffffff;
+}
+
+nav ul {
+    float:right;
+    padding-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav ul li:last-of-type{
+    border-radius: 30px;
+    border: 1px solid #ffffff;
+    padding: 10px;
+}
+
+nav ul li:hover{
+    background-color: #85715F;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+header{
+    margin: 0;
+    /*background-color: #BCA890;*/
+    background: radial-gradient(ellipse at center, rgba(192,169,145,1) 0%, rgba(192,169,145,1) 0%,rgba(168,143,121,1) 100%);
+    text-align: center;
+}
+header h1{
+    text-transform: capitalize;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+header h3{
+    padding: 30px 0;
+    font-size: 10px;
+    color: #ffffff;
+}
+
+main .features{
+    color: #333333;
+    text-align: center;
+    background: url(img/potato-background.png) no-repeat;
+    background-size: cover;
+}
+
+main .features h1{
+    text-transform: capitalize;
+    padding-top: 120px;
+    font-weight: 100;
+}
+
+main .features h3{
+    font-size: 10px;
+    padding: 20px;
+    font-weight: 200;
+}
+
+main .buy-now{
+    padding-top: 30px;
+    color: #333333;
+    text-align: center;
+    background-color: #FAFAFA;
+    font-weight: 100;
+}
+
+h1.order-title, h3.potato-title {
+    font-weight: 100;
+}
+
+.potato-types{
+    vertical-align: text-top;
+    padding-bottom: 30px;
+}
+.potato-types li.potato{
+    display:inline-block;
+    width: 200px;
+    border-right: 1px solid #333333;
+    padding: 10px;
+
+}
+.potato-description{
+    display: block;
+
+}
+
+.potato-description{
+    padding: 10px;
+}
+
+.order-title{
+    text-transform: capitalize;
+    padding: 20px 0 40px;
+    font-size: 26px;
+    font-weight: bold;
+}
+.potato-title{
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 10px;
+}
+
+.potato-img{
+    margin-top: 40px;
+    width: 100px;
+    height: 100px;
+}
+
+.btn-order{
+    margin: 10px;
+    border-color: #B6D972;
+    color: #B6D972;
+    border-radius: 30px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    background-color: #ffffff;
+    font-weight: 500;
+}
+
+.btn-order:hover{
+    padding: 5px 10px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #B6D972;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #867260;
+    padding: 10px;
+}
+
+.footer-text{
+    text-align: center;
+    color: #ffffff;
+}

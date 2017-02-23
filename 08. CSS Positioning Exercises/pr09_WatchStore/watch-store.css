@@ -1,0 +1,125 @@
+@font-face {
+    font-family: Lemon-Regular;
+    src: url("../fonts/Lemon-Regular.ttf");
+}
+
+
+body{
+    font-family: Lemon-Regular, Arial, sans-serif;
+    background-color: #602D75;
+    text-align: center;
+}
+
+main{
+    margin: 50px auto;
+    width:900px;
+    background-color: #FFAE32;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+main>h1{
+    text-align: center;
+    font-family: Lemon-Regular;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+ul{
+    padding: 20px;
+    margin: 0 auto;
+}
+
+ul li{
+    margin: 20px;
+    display: inline-block;
+}
+
+li>article{
+    padding: 10px 5px;
+    text-align: center;
+    width: 220px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #5F2056;
+}
+
+div{
+    border-radius: 75%;
+    width: 90%;
+    height: 40%;
+    margin: 0 auto;
+}
+img{
+    border: 5px solid #826B73;
+    border-radius: 50%;
+    height: 100%;
+    width:100%;
+
+
+}
+
+p.price{
+    margin: 5px;
+    font-size: 22px;
+    color: #F4E4F1;
+}
+
+p.guarantee{
+    margin: 5px;
+    color: #FFC651;
+}
+
+p.text{
+    padding:0;
+    font-size: 15px;
+    margin: 0;
+    color: #FFF6FF;
+}
+
+button{
+    font-family: Lemon-Regular;
+    padding:  5px 10px;
+    margin: 10px 5px;
+    font-size: 15px;
+    border-radius: 15px;
+    width: 90%;
+    background-color: #FFFFFF;
+    color: #974FFF;
+    font-weight: bold;
+}
+
+button:hover{
+    color: #333;
+    cursor: pointer;
+}
+
+
+
+div {
+
+    position: relative;
+    display: inline-block;
+    border: 1px dotted black;
+}
+
+div span {
+
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+div:hover span {
+    visibility: visible;
+}
+

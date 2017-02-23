@@ -1,0 +1,136 @@
+@import "https://fonts.googleapis.com/css?family=Lato:300,400,900";
+
+body{
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    background: linear-gradient(to right, #fd95c0 0%, #c35fcc 38%, #af68f1 66%, #af68f1 84%, #a87dff);
+    padding: 50px;
+}
+
+main{
+    height: 60%;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 30px;
+    background-color: #323354;
+    padding: 15px;
+}
+
+.plan-types{
+    margin: 0 auto;
+}
+.cards{
+    list-style: none;
+    text-align: center;
+
+}
+
+.card-type{
+    height: 17rem;
+    width: 10rem;
+
+}
+
+li.card-type{
+    background-color: #ffffff;
+    display: inline-block;
+    margin: 0 3rem;
+    padding: 0.1rem;
+    background-repeat: no-repeat;
+    background-size: 10rem;
+    border-radius: 15px;
+    text-align: left;
+}
+
+li.card-type .title{
+    color: #ffffff;
+    padding: 0.1rem 0 0 0;
+    text-align: left;
+    font-size: 2.5rem;
+}
+
+#basic-plan{
+    background-image: url("img/plan-background-basic.png");
+}
+
+#pro-plan{
+    background-image: url("img/plan-background-pro.png");
+}
+
+#med-plan{
+    background-image: url("img/plan-background-med.png");
+}
+
+h2.price{
+    font-size: 2.5rem;
+    padding: 0 0 0 1rem;
+    margin: 2.5rem 0 0 0;
+}
+
+p.plan{
+    font-size: 0.7rem;
+
+    padding: 0 0 0 1rem;
+}
+
+button.select-plan{
+    margin: 3.5rem 3.8rem;
+    width: 35px;
+    height: 35px;
+    background: linear-gradient(to top, #fd95c0 30%, #a87dff);
+    border-radius: 50%;
+    border: none;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+button.chosen-plan{
+    margin: 3.5rem 3.8rem;
+    width: 35px;
+    height: 35px;
+    background: linear-gradient(to right, #a87dff 60%, #fd95c0 );
+    border-radius: 50%;
+    border: none;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+div.information{
+    text-align: left;
+    padding: 30px 0 40px 60px ;
+}
+
+div.information{
+    color: #ffffff;
+}
+
+div.information .plan-title{
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+.plan-descirption{
+    color: white;
+    font-size: 0.7rem;
+    width: 50%;
+}
+
+div.next-step{
+    width: 20%;
+    height: 20%;
+    margin: 0 auto 2rem;
+    align-content: center;
+
+}
+
+button.continue{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background: linear-gradient(to right, #E18C6B 0%, #DE7365 35%, #DE7365 60%, #D6586C);
+    border-radius: 10px;
+    border: none;
+    padding: 10px 15px;
+    text-transform: capitalize;
+
+}

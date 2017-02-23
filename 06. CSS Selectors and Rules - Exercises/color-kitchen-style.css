@@ -1,0 +1,105 @@
+@import "https://fonts.googleapis.com/css?family=Sansita";
+
+body{
+    font-family: "Sansita", sans-serif;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background: url("images/bg.jpg");
+}
+
+body>header
+{
+    background: linear-gradient(to right, red 33%, green 33.1%, green 66%, blue 66.1% );
+    text-align:center;
+    color: yellow;
+
+    font-size: 1.4em;
+}
+
+aside{
+    background-color: rgba(245, 230, 254, 0.9);
+    float: left;
+    padding: 5px;
+    border-radius: 30px;
+    margin: 25px;
+}
+
+aside nav header{
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 5px;
+}
+
+aside nav ul {
+    padding: 0 20px 0 0;
+    list-style: url("images/a.png");
+}
+aside nav ul li a{
+
+    text-decoration: none;
+    color: black;
+}
+
+aside nav ul li{
+    list-style-position: inside;
+    padding: 0.3rem 0.4rem;
+    text-indent: 0.3rem;
+    font-size: 0.9rem;
+    border-radius: 30px;
+
+}
+
+aside nav ul li:nth-child(1):hover{
+    background-color: red;
+}
+aside nav ul li:nth-child(4):hover{
+    background-color: green;
+}
+aside nav ul li:nth-child(5):hover{
+    background-color: purple;
+}
+
+section{
+    margin-left: 230px;
+}
+
+section article{
+    background-color: rgba(245, 230, 254, 0.9);
+    padding: 15px;
+    border-radius: 30px;
+    margin: 25px;
+    width: 70%;
+}
+
+article header{
+    border-radius: 10px;
+    padding: 5px 10px 5px;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+#webColors {
+    background-color: red;
+}
+#RGBA{
+    background-color: green;
+}
+
+section article:last-of-type header{
+    background-color: purple;
+
+}
+
+article p{
+    font-size: 0.9rem;
+}
+
+article footer a{
+    font-size: 0.8rem;
+    color: #333333;
+}

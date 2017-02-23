@@ -1,0 +1,54 @@
+body{
+    width: 610px;
+    height:610px;
+    font-family: Verdana, Helvetica;
+    font-size: 13px;
+    color: #333;
+}
+
+ul{
+    margin: 0 auto;
+    padding: 0;
+}
+
+ul li{
+    margin: 5px;
+    padding: 5px;
+    vertical-align: top;
+    display: inline-block;
+    width: 280px;
+    border: 1px solid #DEDEDE;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+h4{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 60px;
+    height: 60px;
+    float:left;
+}
+
+.date{
+    font-size: 10px;
+    color: #ABA5B2;
+    margin: 0;
+    padding: 0;
+}
+

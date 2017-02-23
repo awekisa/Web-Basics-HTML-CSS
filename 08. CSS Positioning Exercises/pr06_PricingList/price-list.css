@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+
+body{
+    width: 1000px;
+    height: 1000px;
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+h1, h4, h5{
+    font-family: Vollkorn, serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+h4{
+    font-size: 30px;
+    background-color: #EDF1F4;
+    padding: 25px;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+h5{
+    margin: 5px 0 15px;
+    font-size: 60px;
+    text-align: center;
+}
+
+/**********************************************************/
+
+
+body>ul{
+    margin:0 auto;
+    padding: 0;
+    width: 85%;
+}
+
+body>ul>li{
+    margin: 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+article>ul{
+
+}
+
+article{
+    height: 530px;
+}
+
+article>ul>li{
+    display:block;
+    margin: 20px 0;
+    padding: 4px;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+button{
+    margin: 30px auto 30px;
+    width: 90%;
+    background-color: #E1E1E1;
+    border-radius: 10px;
+    padding: 15px;
+    border: none;
+    color: #fff;
+    text-transform: capitalize;
+    position: relative;
+    top: -110px;
+    left: 15px;
+    font-size: 16px;
+}
+
+li:hover article h4{
+    background-color: #65D3E2;
+}
+li:hover article h5{
+    color: #65D3E2;
+}
+
+li:hover button{
+    background-color: #65D3E2;
+}

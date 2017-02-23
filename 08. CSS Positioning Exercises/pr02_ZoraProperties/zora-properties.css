@@ -1,0 +1,172 @@
+@import "https://fonts.googleapis.com/css?family=Comfortaa:700|Open+Sans:400,700";
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body{
+    font-family: 'Open Sans', Arial, sans-serif; 'Comfortaa', sans-serif;
+    font-size: 14px;
+    /*height: 800px;*/
+    padding:0;
+    margin: 0;
+
+}
+
+aside{
+    height: 100%;
+    float:left;
+    width: 20%;
+    text-align: center;
+}
+
+aside h1{
+    color: #2D343C;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+aside img{
+    width: 100px;
+    height: 100px;
+    border-radius: 500px;
+    display: inline-block;
+}
+
+aside p{
+    color: #C1C9CC;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+aside ul{
+
+    list-style: none;
+    padding: 0;
+    margin-left: 15px;
+}
+
+aside li{
+    text-align: left;
+    padding: 10px;
+}
+
+aside li a{
+    letter-spacing: 1.5px;
+    color: #C1C9CC;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+aside li a:hover{
+    color: #333;
+}
+
+main{
+    height: 100%;
+    background-color: #F4F5F7;
+    float:right;
+    width: 80%;
+}
+
+main>ul{
+    margin: 2rem;
+    padding-left: 0;
+    list-style: none;
+}
+main section ul li{
+    margin: 5px 0 25px;
+    display: inline-block;
+    width: 30%;
+    height:60%;
+    background-color: #fff;
+
+}
+
+main section>ul{
+    padding: 0;
+    margin: 1rem 0;
+}
+
+main section ul li article{
+    height: 15rem;
+    box-shadow: 8px 6px 17px -1px rgba(0,0,0,0.26);
+}
+
+.listed, .draft, .rented{
+    position: relative;
+    top: -4rem;
+    right: 2rem;
+    border-radius: 30px;
+    padding: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    width: 25%;
+    text-align: center;
+}
+
+.rented{
+    background-color: #BAC7CF;
+}
+
+.draft{
+    background-color: #7F9098;
+}
+
+.listed{
+    background-color: #579F5B;
+}
+
+main section ul li img{
+    width: 100%;
+}
+main section ul li p{
+    margin: -3px 10px;
+    text-transform: capitalize;
+}
+
+main section ul li img, main section ul li p{
+    position: relative;
+    top: 2.7rem;
+}
+
+main h2{
+    margin: 3rem 0 3rem 2rem;
+    width: 50%;
+    text-transform: capitalize;
+}
+
+main h2 span{
+    color: #95A4AF;
+    font-weight:400;
+}
+
+main h5{
+    margin: 1rem 0 0 0;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+main h6{
+    margin: 1rem 0 0 0;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+main>button{
+    background-color: #FF7739;
+    border-radius: 30px;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    float: right;
+    margin: 3rem 2rem 3rem;
+    text-transform: uppercase;
+}
+
+main button:hover{
+    background: none;
+    color: #FF7739;
+    border: 2px solid #FF7739;
+    cursor: pointer;
+}
+
+
