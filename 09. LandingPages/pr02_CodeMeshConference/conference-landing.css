@@ -1,0 +1,380 @@
+@import "http://fonts.googleapis.com/css?family=Roboto";
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body{
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+
+}
+
+.site-header{
+    background: linear-gradient(rgba(66,69,78,.9), rgba(66,69,78,.9) ), url("img/header-bg.png") no-repeat;
+    background-size: cover;
+}
+
+.site-header nav{
+    margin-bottom: 100px;
+    line-height: 50px;
+    height: 50px;
+}
+
+.site-header nav p{
+    color: #F8FFFD;
+    float: left;
+    margin: 10px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.site-header .header-nav ul{
+    margin: 10px;
+    padding: 5px;
+    float: right;
+    text-align: center;
+}
+
+.site-header .header-nav li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.site-header .header-nav li a{
+    color: #F9FBFD;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.site-header .header-nav li a:hover{
+    color: #E27045;
+    cursor: pointer;
+}
+
+.site-header>div{
+    margin: 0 0 0 50px;
+    text-align: center;
+
+}
+
+.site-header div h1{
+    color: #F9FBFD;
+    text-align: left;
+    width: 50%;
+    margin: 0 10px;
+}
+
+.site-header div h1, .site-header div button{
+    display: inline-block;
+
+
+}
+
+
+.site-header div button{
+    border-radius: 50%;
+    background: none;
+    border: none;
+
+}
+
+.site-header div button i{
+    color: #F9FBFD;
+    border: none;
+}
+
+.site-header div button i:hover{
+    color: #F96931;
+    cursor: pointer;
+}
+
+
+.site-header .header-sections{
+    margin-top: 70px;
+    text-align: center;
+}
+
+.site-header .header-sections article{
+    display: inline-block;
+    width: 21%;
+    height: 200px;
+    vertical-align: top;
+    text-align: left;
+    color: #F9FBFD;
+    padding-bottom: 50px;
+    border: 10px solid transparent;
+}
+
+.site-header .header-sections article i{
+    color: #F9FBFD;
+}
+
+.site-header .header-sections article p{
+    font-size: 0.8em;
+    margin-top: 30px;
+    line-height: 1.5em;
+}
+
+.site-header .header-sections article:hover{
+    border-bottom: 10px solid #FA692F;
+    cursor: pointer;
+}
+
+.mission{
+    
+}
+
+.mission div{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.mission article{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 40px 10px 20px ;
+}
+
+.mission .mission-first .mission-first-quote{
+    font-weight: bold;
+    margin: 50px 0 50px;
+    padding: 10px;
+    direction: rtl;
+    text-align: justify;
+    font-size: 1.3em;
+    line-height: 1.3em;
+
+}
+
+.mission .mission-first .mission-first-quote .left-quote{
+    float: left;
+}
+.mission .mission-first .mission-first-quote .right-quote{
+    float: right;
+}
+
+.mission .mission-first .mission-first-author{
+    text-align: right;
+    text-transform: capitalize;
+    padding: 10px;
+}
+
+.mission .mission-second{
+    text-align: left;
+}
+
+.mission .mission-second .mission-second-text{
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(211,211,211, 0.8) ;
+}
+.mission .mission-second .mission-second-footer{
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.mission .mission-third{
+    position: absolute;
+}
+.mission .mission-red-block{
+    height: 450px;
+    width: 110%;
+    background: rgba(250, 105, 47, 0.7);
+    position: relative;
+    top: -423px;
+    left: -70px
+}
+
+.program{
+    margin-top: 50px;
+    background: #30323D;
+    color: #FBFEFF;
+    padding: 30px 50px;
+    text-align: center;
+}
+
+.program>h2{
+    text-align: left;
+    width: 35%;
+
+}
+
+.program ul{
+    width: 40%;
+    display: inline-block;
+    padding: 0;
+}
+
+.program ul li{
+    margin-top: 50px;
+    display:block;
+    font-size: 0.9em;
+    text-align: left;
+}
+
+.program>ul li i{
+    background-color: #FA692F;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.program>ul li i, .program>ul li p{
+    display: inline-block;
+    margin: 5px;
+}
+
+.program>ul li p:last-of-type{
+    color: #D9DCE3;
+    text-transform: capitalize;
+}
+
+.speakers h2{
+    float: left;
+    width: 46%;
+    margin: 5px 5px 50px 30px;
+    padding: 5px;
+    font-weight: bold;
+    height: 40px;
+
+}
+.speakers h3{
+    float: right;
+    width: 45%;
+    margin: 5px 30px 50px 5px;
+    padding: 5px;
+    font-size: 0.7em;
+    height: 40px;
+    line-height:40px;
+    font-weight: 400;
+}
+
+.speakers ul{
+    width: 80% ;
+    text-align: left;
+    margin: 0 auto   ;
+}
+
+.speakers ul li{
+    margin: 10px;
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+}
+
+.speakers ul li article{
+    box-shadow: 2px 2px 8px gray;
+    background-color: #F8F8F8;
+}
+
+.speakers ul li img{
+    width: 100%;
+}
+
+.speakers article .name{
+    padding: 5px 0 0 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.speakers article .position{
+    padding: 0 0 10px 10px;
+    color: #D3C1B7;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    text-shadow: 1px 1px 1px black;
+}
+
+.speakers article .name, .speakers article i {
+    display:inline-block;
+    
+}
+
+.speakers article i:hover{
+    color: #E96C3E;
+    cursor: pointer;
+}
+
+.special-events{
+    background-color: #30323D;
+    height: 450px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.special-events .subscribe-form{
+    margin: 20px auto;
+    width: 70%;
+    height: 70%;
+    border: 2px solid #DADAE2;
+}
+
+.special-events .subscribe-form h3{
+    color: #FFFFFB;
+    font-weight: bold;
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.special-events .subscribe-form .description{
+    text-align: center;
+    color: #FFFFFB;
+    padding: 10px 100px;
+}
+
+.special-events div{
+    text-align: center;
+}
+
+.special-events input {
+    background: none;
+    border: none;
+    border-bottom: 4px solid #CE7553;
+    margin-right: 40px;
+    color: #FFFFFB;
+}
+
+.special-events button{
+    background-color: #CE7553;
+    color: #fff;
+    border-radius: 15px;
+    padding: 5px 10px;
+    border: none;
+    text-transform: uppercase;
+}
+
+.special-events button:hover{
+    background-color: #262625;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #1D1E23;
+    height: 80px;
+}
+
+footer .footer-left{
+    text-transform: uppercase;
+    float: left;
+    color: white;
+    margin: 0 0 0 20px;
+    line-height: 80px;
+    width: 33%;
+}
+
+footer .footer-right{
+    float: right;
+    text-transform: uppercase;
+    color: #828387;
+    width: 30%;
+    margin: 0 20px 0 0;
+    line-height: 70px;
+
+
+}
+
+
+
+

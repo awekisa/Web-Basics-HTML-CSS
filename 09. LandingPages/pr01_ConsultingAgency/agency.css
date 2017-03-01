@@ -1,0 +1,363 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+
+
+body{
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+main>section{
+    border: 1px solid transparent;
+}
+
+header.site-header{
+    background: url("images/Layer-759_02.jpg");
+    background-size: cover;
+    min-height: 400px;
+}
+nav.top-navigation{
+
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 0 0 0;
+}
+
+nav.top-navigation ul{
+    background-color: rgba(199, 157, 99, 0.9);
+    text-align: center;
+    padding:0;
+}
+nav.top-navigation ul li{
+    display: inline-block;
+    padding: 10px;
+}
+nav.top-navigation ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+nav.top-navigation ul li:first-of-type a{
+    color: #f5c686;
+}
+
+nav.top-navigation ul li a:hover{
+    color: #f5c686;
+}
+
+section.slider{
+    text-align: center;
+}
+section.slider h1{
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 0 0 15px black;
+    font-size: 3em;
+    margin: 30px 0 0 0;
+}
+
+section.slider p{
+    color: white;
+    padding: 10px;
+    background: rgba(150, 150, 150, 0.4);
+    box-shadow: 0 0 15px 15px rgba(150, 150, 150, 0.4);
+    width: 300px;
+    margin: 20px auto;
+    font-size: 1.3em;
+}
+
+.slider-button{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: #120F25;
+    padding:15px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px white;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 50px 0 200px;
+
+}
+
+.slider-button i{
+    color: #f5c686;
+}
+
+.slider-button:hover {
+     background-color: #f5c686;
+     color: black;
+ }
+
+.slider-button:hover i{
+    color: black;
+}
+
+section.industries{
+    text-align: center;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+section.industries article{
+    vertical-align: top;
+    display: inline-block;
+    width: 350px;
+}
+
+.industries .icon{
+    width: 45px;
+    height:45px;
+    line-height: 45px;
+    font-size: 2em;
+    background: black;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    float:left;
+}
+
+.industries article h2{
+    font-size: 1.1em;
+    text-align: left;
+    margin-left: 64px;
+}
+
+.industries article p{
+    text-align: left;
+    margin-left: 64px;
+}
+
+.mission{
+    background: url("images/steel-bg.jpg");
+    background-size: cover;
+    text-align: center;
+
+
+}
+
+.mission h2{
+    padding: 30px;
+    text-shadow: 0 0 20px white;
+}
+
+.mission h2 .special{
+    color: #B79E79;
+    padding:0;
+    margin:0;
+}
+
+.mission h2 .normal{
+    margin: 0;
+}
+
+
+
+.benefits{
+    text-align: center;
+    background-image: url("images/background-choose-us.jpg");
+    background-size: cover;
+    padding: 30px 0;
+}
+
+.benefits h2{
+    padding: 30px 0 10px;
+    font-size: 36px;
+    letter-spacing: 1px;
+    text-shadow: 0 0 20px black;
+}
+
+.benefits article{
+    width: 250px;
+    vertical-align: top;
+    display: inline-block;
+    margin: 10px;
+    border: 2px solid #B29E83;
+    font-size: 1em;
+    text-shadow: 0 0 20px black;
+    border-radius: 2px;
+    color: white;
+    padding: 5px;
+}
+
+.benefits h2{
+    color: white;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.benefits article a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.benefits article:hover{
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
+    cursor: pointer;
+}
+
+
+.testimonials{
+    background-image: url("images/consulting-woman.jpg");
+    background-size: cover;
+    text-align: right;
+    /*height: 600px;*/
+}
+
+.testimonial{
+    background-color: white;
+    color: black;
+    width: 30%;
+    display:inline-block;
+    margin: 80px 40px 20px 0;
+    padding: 50px;
+    text-align: left;
+    line-height: 1.5em;
+}
+
+.testimonial span{
+    color: #f5c686;
+}
+
+.testimonial div{
+    background-color: #040416;
+    color: white;
+}
+
+.testimonial .author{
+    padding-bottom: 150px;
+}
+
+.testimonial .position{
+    padding: 10px;
+    color: #414150;
+    font-size: 0.9em;
+    text-align: right;
+}
+
+.testimonial .name{
+    padding: 10px;
+    text-align: left;
+    font-size: 1.3em;
+}
+
+
+.partners ul{
+    padding: 0;
+    text-align: center;
+}
+
+.partners ul li{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+.site-footer{
+    background-color: #040416;
+    text-align: center;
+}
+.site-footer section{
+    width: 300px;
+    vertical-align: top;
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.consulting{
+    color: white;
+    text-align: left;
+}
+
+.consulting h1{
+    text-align: left;
+}
+
+.consulting p{
+    margin: 10px 0 10px 25px;
+    text-align: left;
+    width: 70%;
+}
+
+.consulting .icons{
+    text-align: right;
+    margin: 20px 15px 0 0;
+}
+
+.consulting .icons>a{
+    display: inline-block;
+    background-color: #7C7C87;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    margin: 15px 5px;
+    text-align: center;
+
+}
+
+.consulting .icons>a i{
+    color: #0A0C1B;
+}
+
+
+
+.extra-link{
+    text-align: center;
+}
+
+.extra-link h1{
+    text-align: left;
+    color: white;
+
+}
+
+.extra-link div{
+    text-align: center;
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 10px;
+}
+
+.extra-link p{
+    margin: 5px 0;
+}
+
+.extra-link a{
+    color: #6C5553;
+    text-decoration: none;
+    text-shadow: 0 0 15px black;
+}
+
+
+
+.instagram-widget{
+    text-align: right;
+}
+
+.instagram-widget h1{
+    text-align: left;
+    color: white;
+}
+
+.instagram-widget ul{
+    padding: 5px;
+}
+
+.instagram-widget ul li{
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.instagram-widget img{
+    width: 70px;
+    height: 70px;
+}
