@@ -1,0 +1,140 @@
+@import "https://fonts.googleapis.com/css?family=Roboto:400,500,700";
+
+body{
+    background-color: #F0F0F1;
+    width: 800px;
+    font-family: Roboto, sans-serif;
+    color: #224455;
+}
+
+header {
+    width: 80%;
+    background-color: #fff;
+    border-top: 10px solid #224455;
+    border-right: 10px solid #224455;
+    margin: 0 auto;
+}
+
+header>h1{
+    margin: 10px;
+    padding: 20px;
+    font-size: 40px;
+}
+main{
+    width: 80%;
+    margin: 0 auto;
+    position:relative;
+}
+
+main>form, main>div{
+    display: inline-block;
+    vertical-align: text-top;
+    padding: 20px;
+}
+
+main>form{
+    width: 75%;
+}
+main>form>*{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+main>form>fieldset{
+    background-color: #ffffff;
+    width: calc(100% - 20px);
+    padding: 10px 10px 0;
+    border:none;
+    border-top: 3px solid #224455;
+    border-left: 3px solid #224455;
+    margin-bottom: 30px;
+}
+main>form>fieldset>input{
+    margin-bottom: 10px;
+}
+
+input{
+    border-top: 3px solid #224455;
+    border-left: 3px solid #224455;
+}
+
+main .user-type {
+
+}
+
+main .user-type div{
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    margin-right: 30px;
+}
+
+main form>label:nth-of-type(5), main form>label:nth-of-type(6), main form>label:nth-of-type(7){
+    margin-bottom: 0;
+}
+
+main form a{
+    color: #145E56;
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+main .buttons{
+    text-align: right;
+}
+
+.buttons input[name=cancel]{
+    color: #DE5D3E;
+    border:none;
+    background-color: transparent;
+    border-bottom: 2px solid #DE5D3E;
+    border-right: 2px solid #DE5D3E;
+    font-size: 15px;
+    width:190px;
+    margin-right: 20px;
+    padding: 10px 0;
+
+}
+.buttons input[name=cancel]:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: #DE5D3E;
+}
+
+
+.buttons input[name=save]{
+    color: #145E56;
+    border:none;
+    background-color: transparent;
+    border-bottom: 2px solid #145E56;
+    border-right: 2px solid #145E56;
+    font-size: 15px;
+    width:190px;
+    margin-right: 20px;
+    cursor: pointer;
+    padding: 10px 0;
+}
+
+.buttons input[name=save]:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: #145E56;
+}
+
+
+
+
+
+
+
+main>div{
+    width: 25%;
+    position: absolute;
+    top: 26px;
+    left: 82%;
+}
+
+label{
+    font-size: 14px;
+    width: 500px;
+}

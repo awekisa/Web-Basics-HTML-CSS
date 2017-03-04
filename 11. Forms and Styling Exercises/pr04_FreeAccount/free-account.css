@@ -1,0 +1,188 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #F0F0F1;
+    font-family: Tahoma, Helvetica, sans-serif;
+
+}
+
+
+header{
+    margin: 0 auto;
+    width: 800px;
+    background-color: #fff;
+    padding: 30px 30px 1px;
+
+}
+
+header>h1{
+    font-size: 24px;
+    margin: 30px 0 20px;
+    text-align: center;
+    padding: 10px;
+    border:none;
+}
+
+header>p{
+    font-size: 14px;
+    text-align: center;
+    margin: 10px 0 10px;
+    padding: 10px 10px 30px;
+    border-bottom: 2px solid grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+main{
+    margin: 0 auto;
+    width: 800px;
+    background-color: #fff;
+    padding: 0px 30px;
+    text-align: center;
+}
+
+main .register, main .login{
+    display: inline-block;
+    vertical-align: top;
+    margin: 30px;
+    width: 320px;
+    font-family: FontAwesome, serif;
+}
+
+.register>*{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.register>div{
+    padding: 0;
+    text-align: left;
+}
+.register>div *{
+    display: inline-block;
+    vertical-align: top;
+}
+.register input[name=checkbox]{
+    max-width: 10%;
+    height: 20px;
+    width: 20px;
+}
+.register>div label{
+    font-size: 12px;
+    max-width: 70%;
+    text-align: left;
+    color: grey;
+}
+
+.login *{
+    display: block;
+    margin-bottom: 20px;
+}
+
+main>div>h2{
+    margin-bottom: 20px;
+    padding: 0;
+    font-size: 17px;
+    text-align: left;
+}
+
+main div input {
+    padding: 5px;
+    width: 96%;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+main .register input[name=submit]{
+    font-size: 16px;
+    width: 60%;
+    border-radius: 5px;
+    font-weight: 600;
+}
+main .register input[name=submit]:hover{
+    background-color: #B0E06B;
+    cursor: pointer;
+}
+
+
+main .login a{
+    text-decoration: none;
+    text-align: left;
+    color: #EEAFB8;
+}
+main .login a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #BA8388;
+}
+
+main .login input[name=submit]{
+    font-size: 16px;
+    width: 40%;
+    border-radius: 5px;
+    font-weight: 600;
+
+}
+main .login input[name=submit]:hover{
+    background-color: #B0E06B;
+    cursor: pointer;
+}
+
+main div>div{
+    position: relative;
+}
+main div>div::after{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    color: #ffffff;
+    padding: 2px;
+    top:3px;
+    left: 295px;
+}
+main .register>div:first-of-type::after{
+    content: '\f00c';
+
+    background-color: #0EFF26;
+
+}
+
+main .register>div:nth-of-type(2)::after{
+    content: '\f00c';
+    background-color: #0EFF26;
+}
+
+main .register>div:nth-of-type(3)::after{
+    content: '\f00d';
+    background-color: #FE0700;
+}
+
+main .register>div:nth-of-type(4)::after{
+    content: '\f00d';
+    background-color: #FE0700;
+}
+
+
+main .login>div:nth-of-type(1)::after{
+    content: '\f00c';
+    background-color: #0EFF26;
+}
+
+main .login>div:nth-of-type(2)::after{
+    content: '\f00d';
+    background-color: #FE0700;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit User Form</title>
+    <link rel="stylesheet" href="edit-user-form.css">
+</head>
+<body>
+    <header>
+        <h1>EDIT USER</h1>
+    </header>
+    <main>
+        <form>
+            <label>Username</label>
+            <input type="text" name="username">
+            <label>Email</label>
+            <input type="email" name="email">
+            <label>Phone Number</label>
+            <input type="number" name="phone-number">
+            <label>User type</label>
+            <div class="user-type">
+                <div>
+                    <input type="radio" name="user-type" value="1">
+                    <label>Broadband</label>
+                </div>
+                <div>
+                    <input type="radio" name="user-type" value="2">
+                    <label>Radio</label>
+                </div>
+
+            </div>
+            <label>Change Password</label>
+            <input type="password" name="password">
+            <label>Groups</label>
+            <fieldset>
+                <input type="radio" name="group" value="1">All Groups<br/>
+                <input type="radio" name="group" value=1">Group 1<br/>
+                <input type="radio" name="group" value="2">Group 2<br/>
+                <input type="radio" name="group" value="3">Group 3<br/>
+                <input type="radio" name="group" value="4">Group 4<br/>
+            </fieldset>
+            <label>Contacts</label>
+            <a href="#">See Contacts list</a>
+            <div class="buttons">
+                <input type="submit" name="cancel" value="CANCEL">
+                <input type="submit" name="save" value="SAVE">
+            </div>
+        </form>
+        <div class="checkbox-parent">
+            <input type="checkbox">
+            <laber>Deactivate</laber>
+        </div>
+    </main>
+</body>
+</html>

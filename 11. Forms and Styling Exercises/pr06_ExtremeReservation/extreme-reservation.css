@@ -1,0 +1,188 @@
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background: url("images/background.jpg") no-repeat;
+    background-size: cover;
+    color: #3A65A3;
+}
+
+header{
+    width: 800px;
+    margin: 0 auto;
+}
+
+header>nav>ul{
+    margin-top: 60px;
+    padding: 0;
+    text-align: center;
+}
+
+header>nav>ul>li{
+    margin: 0 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+header>nav>ul>li:first-of-type{
+    background-color: #76A4C9;
+    border-radius: 10px;
+}
+header>nav>ul>li:hover{
+    background-color: #76A4C9;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+header>nav>ul>li>img{
+    vertical-align: middle;
+}
+header>nav>ul>li>a{
+    text-decoration: none;
+
+    font-weight: 700;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+main{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form{
+    margin: 0 auto;
+    width: 80%;
+}
+
+fieldset{
+    border: 2px solid #3A65A3;
+    border-radius: 10px;
+    width: 45%;
+
+    display: inline-block;
+    vertical-align: top;
+}
+
+.personal-info, .flight-info{
+    height: 260px;
+}
+
+.personal-info{
+    padding: 40px 5px 20px;
+    text-align: center;
+}
+.personal-info input{
+    display:block;
+    margin: 0 auto 20px;
+    border: 1px solid #3A65A3;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    width: 80%;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #8DA5BB;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #8DA5BB;
+    opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #8DA5BB;
+    opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:    #8DA5BB;
+}
+
+.flight-info{
+    padding: 40px 5px 20px;
+    text-align: center;
+}
+
+.flight-info>*{
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+.flight-info .yes-no{
+    margin: 5px;
+}
+.flight-info .yes-no *{
+    display: inline-block;
+}
+
+.flight-info select[name=destinations]{
+    width: 80%;
+    border: 2px solid #3A65A3;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 0 auto 5px;
+    color: #3A65A3;
+    font-size: 20px;
+
+}
+
+.flight-info .date{
+    width: 70%;
+    border: 2px solid #3A65A3;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flight-info .date{
+    color: #3A65A3;
+    font-size: 16px;
+}
+
+.buttons{
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 12%;
+
+}
+
+.buttons input{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.buttons input[name=clear]{
+    border: 2px solid #AC0018;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #fff;
+    background: none;
+}
+
+.buttons input[name=clear]:hover{
+    background-color: #AC0018;
+    cursor: pointer;
+}
+
+.buttons input[name=send]{
+    border: 2px solid #2AB300;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #fff;
+    background: none;
+}
+
+.buttons input[name=send]:hover{
+    background-color: #2AB300;
+    cursor: pointer;
+}
