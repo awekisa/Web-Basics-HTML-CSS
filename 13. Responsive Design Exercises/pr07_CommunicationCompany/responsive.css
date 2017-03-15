@@ -1,0 +1,107 @@
+@media all and (max-width: 1199px){
+    section.content > .wrapper{
+        width: 100%;
+    }
+    section.content .wrapper .content-wrap {
+        flex-direction: column;
+    }
+
+
+
+    footer.main-foot{
+        width: 100%;
+    }
+    footer.main-foot >.wrapper{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        width: 100%;
+
+    }
+    footer.main-foot > .wrapper > *{
+
+        min-width: calc(50% - 20px);
+    }
+}
+
+@media all and (max-width: 699px){
+    body > .wrap .hero-head{
+        background-color: #0F0D18;
+        background-image: none;
+    }
+    body > div > section.hero-head > header > span{
+        display: inline-block;
+        float: right;
+        margin-top: 18px;
+    }
+    body > div > section.hero-head > header > a{
+        display: inline-block;
+
+    }
+    body > div > section.hero-head > header > nav{
+        display: none;
+    }
+
+    body > div > section.hero-head > .wrapper{
+        width: 100%;
+        text-align: center;
+    }
+    body > div > section.hero-head > .wrapper h1{
+        float:none;
+        font-size: 3em;
+        /*margin: 40px auto 20px;*/
+    }
+    body > div > section.hero-head > .wrapper .goal{
+        float: none;
+        padding:5px 20px;
+        max-width: none;
+    }
+
+    section.content *{
+        margin-right: 0;
+        text-align: center;
+    }
+
+    section.content .content-wrap .col{
+        margin-right: 0;
+    }
+    section.content .content-wrap .col .module-text{
+        width: 90%;
+        margin: 0 auto 20px;
+    }
+    section.content .content-wrap .col a{
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    body > div > section.content.sponsorship.woodsmoke > div > div > div{
+        padding: 0 20px;
+    }
+
+    body > div > section.content.sponsorship.woodsmoke > div > div > ul li{
+        display: block;
+        margin: 0 auto 20px;
+        padding: 20px;
+    }
+    body > div > section.content.sponsorship.woodsmoke > div > div > ul li a{
+        width: 100%;
+
+        text-align: center;
+    }
+
+    body > div > section.content.sponsors{
+        padding: 0 20px;
+    }
+
+    footer.main-foot .wrapper{
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    footer.main-foot .bottom .copyright{
+        float: none;
+        text-align: center;
+    }
+}

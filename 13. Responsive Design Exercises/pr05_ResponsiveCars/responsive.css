@@ -1,0 +1,105 @@
+@media all and (max-width: 979px){
+    header .wrap-header{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    header .wrap-header > *{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header .wrap-header .wrap-nav {
+        width: 100%;
+        text-align: center;
+        position: static;
+    }
+
+    header .wrap-header .wrap-nav .menu{
+        height: 37px;
+    }
+    header .wrap-header .wrap-nav .menu ul{
+        height: 37px;
+        text-align: center;
+    }
+    header .wrap-header .wrap-nav .menu ul li{
+        position: static;
+        float: none;
+        display: inline-block;
+    }
+    header .wrap-header .wrap-nav .menu ul li a{
+        font-size: 1.1em;
+    }
+
+    header .wrap-header > nav{
+        order: 1;
+    }
+    header .wrap-header #logo{
+        margin: 0 auto;
+        position: static;
+        order: 2;
+        width: 20%;
+    }
+
+
+
+    .featured .wrap-featured{
+        width: 100%;
+    }
+
+
+    #content .wrap-content{
+        width: 100%;
+    }
+    #content .wrap-content .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #content .wrap-content .row > *{
+        width: 50%;
+        margin: 0;
+    }
+
+    footer .wrap-footer{
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    footer .wrap-footer .row{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    footer .wrap-footer .row:first-of-type div{
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    footer .wrap-footer .row:first-of-type div .wrap-col{
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0 10px;
+    }
+}
+
+
+@media all and (max-width: 465px){
+    header .wrap-header{
+        width: 100%;
+        height: auto;
+    }
+    header .wrap-header #logo{
+        display: none;
+    }
+    header .wrap-header .wrap-nav{
+        height: 178px;
+    }
+
+    header .wrap-header .wrap-nav .menu ul li{
+        display: block;
+    }
+    #content .wrap-content .row > *{
+        width: 10%;
+    }
+}

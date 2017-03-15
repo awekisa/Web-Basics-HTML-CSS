@@ -1,0 +1,87 @@
+﻿@media all and (max-width: 999px){
+    header{
+        height: auto;
+        box-sizing: border-box;
+        padding: 40px;
+
+    }
+    header #logoarea{
+        float: none;
+        display: block;
+        padding: 32px 0 31px;
+    }
+    header #logoarea a img  {
+        text-align: center;
+        margin: 0 auto;
+    }
+    header #header-area-right{
+        float: none;
+        display: block;
+        width: 100%;
+        max-width: 100%;
+    }
+    header #header-area-right>*{
+        float: none;
+        display: block;
+        margin-bottom: 15px;
+    }
+    header #header-area-right #menu #nav-menu{
+        justify-content: center;
+    }
+    header #header-area-right #search-form{
+        padding:0.44rem 0 0.21rem 0.4rem;
+        margin: 0 auto;
+        width: 27%;
+        height: auto;
+    }
+    header #header-area-right #search-form form{
+        width: 100%;
+        height: 22px;
+    }
+
+
+    section.contentblock #publicphotos{
+        padding: 29px 35px 5px;
+    }
+    section.contentblock #publicphotos h1{
+        text-align: center;
+
+    }
+    section.contentblock #publicphotos #p-albums-items{
+        display: flex;
+        padding: 1rem 3.5rem;
+        box-sizing: border-box;
+        justify-content: center;
+    }
+
+    section.contentblock #paging{
+        width: 100%;
+    }
+}
+
+
+@media all and (max-width: 755px){
+    header #header-area-right{
+        height:auto;
+    }
+    header #header-area-right #menu #nav-menu{
+        flex-direction: column;
+        align-items: center;
+    }
+    header #header-area-right #menu #nav-menu li{
+        width: 80%;
+        text-align: center;
+    }
+    header #header-area-right #menu #nav-menu li a{
+        width: 100%;
+        font-size: 2.6em;
+
+    }
+    header #header-area-right #search-form{
+        width: 40%;
+    }
+
+    section.contentblock #publicphotos #p-albums-items{
+        padding: 1rem 8.5rem;
+    }
+}
