@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #0E1013;
+}
+
+.container {
+    width: 200px;
+    height: 100px;
+    padding-top: 200px;
+    margin: 0 auto;
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    margin: 20px auto;
+    border-radius: 50px;
+}
+
+/*TODO Animations*/
+
+.ball{
+    animation-iteration-count: infinite;
+    animation-duration: 1.3s;
+}
+.ball:nth-child(1){
+    background: #ff005d;
+    animation-name: ball1;
+}
+.ball:nth-child(2){
+    background: #35ff99;
+    animation-name: ball2;
+    animation-delay: 0.1s;
+}
+
+.ball:nth-child(3){
+    background: #008597;
+    animation-name: ball3;
+    animation-delay: 0.2s;
+}
+.ball:nth-child(4){
+    background: #ffcc00;
+    animation-name: ball4;
+    animation-delay: 0.3s;
+}
+
+.ball:nth-child(5){
+    background: #2d3443;
+    animation-name: ball5;
+    animation-delay: 0.4s;
+}
+
+
+.ball:nth-child(6){
+    background: #ff7c35;
+    animation-name: ball6;
+    animation-delay: 0.5s;
+}
+
+
+.ball:nth-child(7){
+    background: #4d407c;
+    animation-name: ball7;
+    animation-delay: 0.6s;
+}
+
+
+
+
+/*TODO @keyframes*/
+@keyframes ball1 {
+    0% {
+        margin-left: 0;
+        margin-right: 180px;
+    }
+    50% {
+    margin-right: 0;
+    margin-left: 180px;
+    }
+    100% {
+        margin-left: 0;
+        margin-right: 180px;
+    }
+}
+
+@keyframes ball2 {
+    0% {
+        margin-left: 0;
+        margin-right: 180px;
+    }
+    50% {
+        margin-right: 0;
+        margin-left: 180px;
+    }
+    100% {
+        margin-left: 0;
+        margin-right: 180px;
+    }
+}
+
+@keyframes ball3 {
+    0% {
+        margin-left: 0;
+        margin-right: 180px;
+    }
+    50% {
+        margin-right: 0;
+        margin-left: 180px;
+    }
+    100% {
+        margin-left: 0;
+        margin-right: 180px;
+    }
+}
+
+@keyframes ball4 {
+    0% {
+        margin-left: 0;
+        margin-right: 180px;
+    }
+    50% {
+        margin-right: 0;
+        margin-left: 180px;
+    }
+    100% {
+        margin-left: 0;
+        margin-right: 180px;
+    }
+}
+
+@keyframes ball5 {
+    0% {
+        margin-left: 0;
+        margin-right: 180px;
+    }
+    50% {
+        margin-right: 0;
+        margin-left: 180px;
+    }
+    100% {
+        margin-left: 0;
+        margin-right: 180px;
+    }
+}
+
+@keyframes ball6 {
+    0% {
+        margin-left: 0;
+        margin-right: 180px;
+    }
+    50% {
+        margin-right: 0;
+        margin-left: 180px;
+    }
+    100% {
+        margin-left: 0;
+        margin-right: 180px;
+    }
+}
+
+@keyframes ball7 {
+    0% {
+        margin-left: 0;
+        margin-right: 180px;
+    }
+    50% {
+        margin-right: 0;
+        margin-left: 180px;
+    }
+    100% {
+        margin-left: 0;
+        margin-right: 180px;
+    }
+}

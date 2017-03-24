@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Kreon");
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+
+
+header{
+    background: url("img/header-background.jpg") no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.top-header{
+    margin-bottom: 300px;
+}
+
+.top-header .logo{
+    font-family: "Kreon", sans-serif;
+    font-size: 32px;
+    text-transform: capitalize;
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+}
+
+.top-header .navigation{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.top-header .navigation ul li{
+    display: inline-block;
+    margin: 0 40px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    padding: 7px 20px;
+    border-radius: 7px;
+    border:none;
+}
+
+.top-header .navigation ul li:hover{
+    cursor: pointer;
+    background-color: #F3474E;
+}
+
+.header-description{
+    margin-bottom: 40px;
+}
+
+.header-description p:first-of-type{
+    color: #fff;
+    text-transform: uppercase;
+    font-size:20px;
+    margin: 0;
+}
+
+.header-description p:last-of-type{
+    width: 40%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0;
+}
+
+main{
+
+}
+
+.first-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.first-section>article{
+    flex: 1;
+    color: #fff;
+    display:flex;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.first-section>article .image{
+    position:relative;
+    flex: 1;
+}
+
+.first-section>article .image img{
+    position:absolute;
+    top: 20px;
+    left: 0;
+}
+
+.first-section>article .elements{
+    flex: 3;
+}
+.first-section>article .elements h1{
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 5px 0 25px;
+}
+.first-section>article .elements p{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.first-section>article:first-of-type{
+    background-color: #F3474E;
+}
+
+.first-section>article:last-of-type{
+    background-color: #31C6D7;
+}
+
+
+.middle-section{
+    padding: 30px;
+}
+.middle-section>*{
+    margin-bottom: 40px;
+}
+
+.middle-section > h1{
+    font-size:26px;
+    text-transform: capitalize;
+}
+
+.middle-section > p{
+    color: #AAAAAA;
+    width: 40%;
+}
+
+.middle-section > ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.middle-section > ul li{
+    flex: 1;
+}
+
+.middle-section > ul li article{
+    padding: 5px 30px;
+    box-sizing: border-box;
+    border-right: 1px solid rgba(128, 128, 128, 0.28);
+}
+.middle-section > ul li article h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.middle-section > ul li:last-of-type article{
+    border:none;
+}
+
+
+.last-section{
+    background-color: #F3474E;
+    padding: 30px;
+}
+
+.last-section div{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 20px 140px;
+}
+
+.last-section div p{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.last-section div button{
+    color: #F3474E;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: #fff;
+    border-radius: 10px;
+    border:none;
+    font-weight: bold;
+    padding: 0 30px;
+}
+
+.last-section div button:hover{
+    color: black;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    font-size: 14px;
+    color: rgba(78, 78, 78, 0.62);
+}

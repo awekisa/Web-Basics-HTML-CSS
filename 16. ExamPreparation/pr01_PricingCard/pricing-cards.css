@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    background-color: #E9EFF0;
+}
+
+main{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+article{
+    vertical-align: top;
+    display: inline-block;
+    width: 29%;
+    background-color: #F8F9FA;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px rgba(125, 125, 125, 0.63);
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+article *{
+    margin-bottom: 30px;
+}
+
+img{
+    width:42px;
+    height: 51px;
+}
+
+h1{
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+.ad{
+    font-size: 14px;
+    word-wrap: break-word;
+    height: 70px;
+    margin-bottom: 40px;
+}
+
+.price{
+    margin-bottom: 40px;
+}
+
+button{
+    text-transform: uppercase;
+    border-radius: 30px;
+    border:none;
+    color: #fff;
+    background-color: #FA7E41;
+    padding: 10px 40px;
+}
+
+article:first-of-type button{
+    background-color: #92DCE7;
+}
+
+article:nth-child(2) .price{
+    color: #FA7E41;
+}
+
+article:nth-child(3) .price{
+    color: #FA7E41;
+}
+
+article:hover{
+    background-color: #fff;
+    cursor: pointer;
+}
+
+article:nth-child(2) button:hover{
+    background-color: #FF4C05;
+    cursor: pointer;
+}
+
+article:nth-child(3) button:hover{
+    background-color: #FF4C05;
+    cursor: pointer;
+}
+
+
+
